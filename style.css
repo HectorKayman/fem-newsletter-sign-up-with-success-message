@@ -39,6 +39,8 @@ body {
   width: 50%;
   height: 75%;
   background-color: hsl(0, 0%, 100%);
+  padding: 1rem 0.1rem;
+  border-radius: 1rem;
 }
 
 .card-column {
@@ -51,6 +53,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  padding: 3rem;
 }
 
 #hero-image {
