@@ -97,8 +97,15 @@ body {
   gap: 0.5rem;
 }
 
-.email-box > label {
+.email-label {
   font-size: 0.8rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#error-msg {
+  color: hsl(4, 100%, 67%);
 }
 
 .input-box {
