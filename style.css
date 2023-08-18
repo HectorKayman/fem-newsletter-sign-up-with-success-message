@@ -29,6 +29,7 @@ body {
   align-items: center;
   height: 100svh;
   width: 100svw;
+  background-color: hsl(234, 29%, 20%);
 }
 
 .container {
@@ -36,7 +37,8 @@ body {
   justify-content: center;
   align-items: center;
   width: 50%;
-  height: 60%;
+  height: 75%;
+  background-color: hsl(0, 0%, 100%);
 }
 
 .card-column {
