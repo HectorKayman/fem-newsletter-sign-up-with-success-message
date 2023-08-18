@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-  display: none; /* Temporarily hide the main form */
+  display: flex;
   justify-content: center;
   align-items: center;
   width: 50%;
@@ -144,7 +144,7 @@ body {
   position: absolute;
   width: 30%;
   height: 65%;
-  display: flex;
+  display: none;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
