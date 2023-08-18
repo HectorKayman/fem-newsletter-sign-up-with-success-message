@@ -14,12 +14,12 @@ const buttonDismiss = document.querySelector("#btn-dismiss");
 // Regex for email pattern matching
 const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
-// Variable to store user email
-const email = emailInput.value;
-
 // Event handler for Signup button
 buttonSignup.addEventListener("click", function (e) {
   e.preventDefault();
+
+  // Variable to store user email
+  const email = emailInput.value;
 
   // Checks if email address is valid
   const isValidEmail = emailPattern.test(email);
