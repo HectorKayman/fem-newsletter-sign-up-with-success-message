@@ -29,7 +29,7 @@ body {
   align-items: center;
   height: 100svh;
   width: 100svw;
-  background-color: hsl(234, 29%, 20%);
+  background-color: hsl(235, 18%, 26%);
 }
 
 .container {
@@ -39,7 +39,7 @@ body {
   width: 50%;
   height: 70%;
   background-color: hsl(0, 0%, 100%);
-  color: hsl(235, 18%, 26%);
+  color: hsl(234, 29%, 20%);
   padding: 1rem 1rem;
   border-radius: 1rem;
 }
@@ -78,6 +78,46 @@ body {
   gap: 0.3rem;
 }
 
+.email-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+  gap: 0.6rem;
+}
+
+.email-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.email-box > label {
+  font-size: 0.8rem;
+}
+
+.input-box {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid hsl(235, 18%, 70%);
+  border-radius: 0.4rem;
+}
+
+.btn-signup {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: none;
+  border-radius: 0.4rem;
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Roboto-Bold";
+}
+
+/* Hero image and its section */
 .column-right {
   width: 45%;
   height: 100%;
