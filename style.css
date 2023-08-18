@@ -106,6 +106,9 @@ body {
 
 #error-msg {
   color: hsl(4, 100%, 67%);
+}
+
+.display-error {
   display: none;
 }
 
