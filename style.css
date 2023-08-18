@@ -107,6 +107,11 @@ body {
   border-radius: 0.4rem;
 }
 
+.input-box:hover {
+  border-color: hsl(235, 18%, 50%);
+  cursor: pointer;
+}
+
 .btn-signup {
   width: 100%;
   padding: 0.8rem 1rem;
@@ -115,6 +120,11 @@ body {
   background-color: hsl(234, 29%, 20%);
   color: hsl(0, 0%, 100%);
   font-family: "Roboto-Bold";
+}
+
+.btn-signup:hover {
+  background-color: hsl(4, 100%, 67%);
+  cursor: pointer;
 }
 
 /* Hero image and its section */
