@@ -134,8 +134,14 @@ body {
 
 .btn-signup:hover,
 #btn-dismiss:hover {
-  background-color: hsl(4, 100%, 67%);
+  background: linear-gradient(to right, hsl(354, 67%, 56%), hsl(4, 100%, 67%));
   cursor: pointer;
+}
+
+.btn-signup:active,
+#btn-dismiss:active {
+  transform: translateY(1px);
+  background: linear-gradient(to right, hsl(354, 67%, 52%), hsl(4, 100%, 64%));
 }
 
 /* Hero image and its section */
