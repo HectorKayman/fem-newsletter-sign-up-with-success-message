@@ -124,6 +124,11 @@ body {
   cursor: pointer;
 }
 
+.error-box {
+  border: 1px solid hsl(4, 100%, 67%);
+  background-color: hsla(4, 100%, 67%, 10%);
+}
+
 .btn-signup,
 #btn-dismiss {
   width: 100%;
