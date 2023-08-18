@@ -42,6 +42,7 @@ body {
   color: hsl(234, 29%, 20%);
   padding: 1rem 1rem;
   border-radius: 1rem;
+  margin-top: auto;
 }
 
 .column-left {
@@ -141,6 +142,7 @@ body {
 
 /* Success Message Window */
 .success-card {
+  margin-top: auto;
   position: absolute;
   width: 30%;
   height: 65%;
@@ -162,6 +164,7 @@ body {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin-top: auto;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
