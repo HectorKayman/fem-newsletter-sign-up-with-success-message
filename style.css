@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-  display: flex;
+  display: none; /* Temporarily hide the main form */
   justify-content: center;
   align-items: center;
   width: 50%;
@@ -139,8 +139,16 @@ body {
 
 /* Success Message Window */
 .success-card {
-  opacity: 0;
   position: absolute;
+  width: 30%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  padding: 2rem;
 }
 
 /* Footnote */
