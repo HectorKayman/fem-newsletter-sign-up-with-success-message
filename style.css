@@ -39,6 +39,7 @@ body {
   width: 50%;
   height: 70%;
   background-color: hsl(0, 0%, 100%);
+  color: hsl(235, 18%, 26%);
   padding: 1rem 1rem;
   border-radius: 1rem;
 }
@@ -56,7 +57,25 @@ body {
 .heading {
   font-family: "Roboto-Bold";
   font-size: 2.8rem;
-  color: hsl(235, 18%, 26%);
+}
+
+.subheading {
+  font-size: 0.8rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 0.5rem;
+}
+
+.list-item {
+  font-size: 0.8rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
 }
 
 .column-right {
