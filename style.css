@@ -106,6 +106,7 @@ body {
 
 #error-msg {
   color: hsl(4, 100%, 67%);
+  display: none;
 }
 
 .input-box {
