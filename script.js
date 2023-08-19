@@ -32,3 +32,15 @@ buttonSignup.addEventListener("click", function (e) {
     emailInput.classList.add("error-box");
   }
 });
+
+// Event handling function for Dismiss button
+buttonDismiss.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  errorMsg.classList.add("display-error");
+  emailInput.classList.remove("error-box");
+  mainCard.classList.remove("hidden");
+  successCard.classList.add("hidden");
+  emailInput.value = "";
+  emailInput.focus();
+});
