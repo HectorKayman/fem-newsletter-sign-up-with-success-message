@@ -28,6 +28,5 @@ buttonSignup.addEventListener("click", function (e) {
   } else {
     errorMsg.classList.remove("display-error");
     emailInput.classList.add("error-box");
-    emailInput.style.cssText = "color: hsl(4, 100%, 60%)";
   }
 });
