@@ -129,6 +129,10 @@ body {
   background-color: hsla(4, 100%, 67%, 10%);
 }
 
+.error-box::placeholder {
+  color: hsl(9, 98%, 52%);
+}
+
 .btn-signup,
 #btn-dismiss {
   width: 100%;
