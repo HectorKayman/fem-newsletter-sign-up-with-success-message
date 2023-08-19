@@ -24,7 +24,9 @@ buttonSignup.addEventListener("click", function (e) {
   // Checks if email address is valid
   const isValidEmail = emailPattern.test(email);
   if (isValidEmail) {
-    console.log("Valid email address");
+    mainCard.classList.add("hidden");
+    successCard.classList.remove("hidden");
+    emailSuccess.textContent = email;
   } else {
     errorMsg.classList.remove("display-error");
     emailInput.classList.add("error-box");
