@@ -37,7 +37,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 715px;
-  height: 70%;
+  height: 462px;
   background-color: hsl(0, 0%, 100%);
   color: hsl(234, 29%, 20%);
   padding: 1rem 1rem;
@@ -199,4 +199,18 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+/* Media Queries for mobile responsive design */
+@media (max-width: 714px) {
+  .container {
+    flex-direction: column-reverse;
+    width: auto;
+    height: auto;
+  }
+
+  .column-left {
+    width: 100%;
+    gap: 2rem;
+  }
 }
