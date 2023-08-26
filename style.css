@@ -207,6 +207,7 @@ body {
     flex-direction: column-reverse;
     width: auto;
     height: auto;
+    padding: 0;
   }
 
   .column-left {
