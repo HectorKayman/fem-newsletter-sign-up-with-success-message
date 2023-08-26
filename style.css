@@ -213,4 +213,9 @@ body {
     width: 100%;
     gap: 2rem;
   }
+
+  .column-right {
+    width: 100%;
+    height: auto;
+  }
 }
