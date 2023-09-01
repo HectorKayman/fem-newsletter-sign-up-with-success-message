@@ -60,20 +60,14 @@ body {
   font-size: 2.8rem;
 }
 
-.subheading {
-  font-size: 0.8rem;
-}
-
 .list {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;
   gap: 0.5rem;
 }
 
 .list-item {
-  font-size: 0.8rem;
   display: flex;
   align-items: center;
   gap: 0.3rem;
@@ -121,7 +115,6 @@ body {
 
 .input-box:hover {
   border-color: hsl(235, 18%, 50%);
-  cursor: pointer;
 }
 
 .error-box {
@@ -205,8 +198,12 @@ body {
   .container {
     flex-direction: column-reverse;
     width: auto;
-    height: auto;
+    height: 100%;
     padding: 0;
+    border-radius: 0;
+    justify-content: start;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .column-left {
@@ -217,16 +214,20 @@ body {
 
   .column-right {
     width: 100%;
-    padding: 0;
+    height: 60%;
     background-image: url(./assets/images/illustration-sign-up-mobile.svg);
-    background-size: 100% 100%;
+    background-size: contain;
+    background-position: center top;
+  }
+
+  .attribution {
+    display: none;
   }
 }
 
 @media (max-width: 415px) {
   .container {
     width: 100%;
-    border-radius: 0;
   }
   .success-card {
     justify-content: start;
@@ -238,9 +239,5 @@ body {
 
   #btn-dismiss {
     margin-top: auto;
-  }
-
-  .attribution {
-    display: none;
   }
 }
