@@ -160,11 +160,10 @@ body {
 .column-right {
   width: 45%;
   height: 100%;
-}
-
-#hero-image {
-  height: 100%;
-  width: 100%;
+  background-image: url(./assets/images/illustration-sign-up-desktop.svg);
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 /* Success Message Window */
@@ -213,22 +212,32 @@ body {
   .column-left {
     width: 100%;
     gap: 2rem;
+    padding: 2rem;
   }
 
   .column-right {
     width: 100%;
-    height: auto;
+    padding: 0;
+    background-image: url(./assets/images/illustration-sign-up-mobile.svg);
+    background-size: 100% 100%;
   }
 }
 
-@media (max-width: 376px) {
+@media (max-width: 415px) {
   .container {
     width: 100%;
     border-radius: 0;
   }
   .success-card {
+    justify-content: start;
+    gap: 2rem;
+    width: 100%;
     height: 100%;
     border-radius: 0;
+  }
+
+  #btn-dismiss {
+    margin-top: auto;
   }
 
   .attribution {
