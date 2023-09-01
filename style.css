@@ -171,7 +171,7 @@ body {
 .success-card {
   margin-top: auto;
   position: absolute;
-  width: 30%;
+  width: min-content;
   height: 65%;
   display: flex;
   flex-direction: column;
@@ -218,5 +218,12 @@ body {
   .column-right {
     width: 100%;
     height: auto;
+  }
+}
+
+@media (max-width: 375px) {
+  .success-card {
+    height: 100%;
+    border-radius: 0;
   }
 }
