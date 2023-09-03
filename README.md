@@ -63,8 +63,7 @@ Need to increase my understanding of Flexbox and media query more. Gotta learn a
 
 ## Author
 
-- Website - [Himanshu Kaushik](https://www.your-site.com)
-- Frontend Mentor - [@HectorKayman](https://www.frontendmentor.io/profile/HectorKayman)
+- Himanshu Kaushik - [@HectorKayman](https://www.frontendmentor.io/profile/HectorKayman)
 
 ## Acknowledgments
 
