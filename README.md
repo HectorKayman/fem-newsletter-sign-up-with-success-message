@@ -70,3 +70,5 @@ Need to increase my understanding of Flexbox and media query more. Gotta learn a
 
 - Kevin Powell on YouTube is always very helpful with his videos.
 - Jonas Schmedtman's JavaScript Mastery course has helped me a lot in understanding hte workings of JS.
+
+- Thanks to [Abdullah Alashhab](https://github.com/DoctorLoo) for the improvements.
